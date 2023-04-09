@@ -43,9 +43,11 @@ namespace BeamMP_Installer
         {
 
             InitializeComponent();
+
+            appIcon1.DragForm = this;
+
             for (int i = 0; i < installerTabs.TabPages.Count; i++)
             {
-
                 installerTabsBackup.Add(installerTabs.TabPages[i]);
             }
 

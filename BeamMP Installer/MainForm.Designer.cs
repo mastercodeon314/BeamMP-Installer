@@ -53,9 +53,9 @@
             this.finishedPage = new System.Windows.Forms.TabPage();
             this.runLauncherOnExitBox = new DarkControls.Controls.DarkCheckBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.appIcon1 = new DarkControls.Controls.AppIcon();
             this.transparentLabel1 = new DarkControls.Controls.TransparentLabel();
             this.closeBtn = new DarkControls.Controls.WindowsDefaultTitleBarButton();
+            this.appIcon1 = new DarkControls.Controls.AppIcon();
             this.installerTabs.SuspendLayout();
             this.dirPage.SuspendLayout();
             this.dl_LauncherPage.SuspendLayout();
@@ -81,13 +81,13 @@
             this.installerTabs.HeaderColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.installerTabs.HorizontalLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.installerTabs.ItemSize = new System.Drawing.Size(240, 16);
-            this.installerTabs.Location = new System.Drawing.Point(12, 46);
+            this.installerTabs.Location = new System.Drawing.Point(12, 51);
             this.installerTabs.Name = "installerTabs";
             this.installerTabs.SelectedIndex = 0;
             this.installerTabs.SelectedTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.installerTabs.ShowClosingButton = false;
             this.installerTabs.ShowClosingMessage = false;
-            this.installerTabs.Size = new System.Drawing.Size(695, 257);
+            this.installerTabs.Size = new System.Drawing.Size(695, 252);
             this.installerTabs.TabIndex = 22;
             this.installerTabs.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             // 
@@ -103,7 +103,7 @@
             this.dirPage.Location = new System.Drawing.Point(4, 20);
             this.dirPage.Name = "dirPage";
             this.dirPage.Padding = new System.Windows.Forms.Padding(3);
-            this.dirPage.Size = new System.Drawing.Size(687, 233);
+            this.dirPage.Size = new System.Drawing.Size(687, 228);
             this.dirPage.TabIndex = 0;
             this.dirPage.Text = "Select install dir";
             // 
@@ -187,7 +187,7 @@
             this.dl_LauncherPage.Location = new System.Drawing.Point(4, 20);
             this.dl_LauncherPage.Name = "dl_LauncherPage";
             this.dl_LauncherPage.Padding = new System.Windows.Forms.Padding(3);
-            this.dl_LauncherPage.Size = new System.Drawing.Size(687, 233);
+            this.dl_LauncherPage.Size = new System.Drawing.Size(687, 228);
             this.dl_LauncherPage.TabIndex = 1;
             this.dl_LauncherPage.Text = "Dowloading the launcher...";
             // 
@@ -225,7 +225,7 @@
             this.dl_ModPage.Controls.Add(this.clientDL_Progress);
             this.dl_ModPage.Location = new System.Drawing.Point(4, 20);
             this.dl_ModPage.Name = "dl_ModPage";
-            this.dl_ModPage.Size = new System.Drawing.Size(687, 233);
+            this.dl_ModPage.Size = new System.Drawing.Size(687, 228);
             this.dl_ModPage.TabIndex = 2;
             this.dl_ModPage.Text = "Downloading the mod...";
             // 
@@ -265,7 +265,7 @@
             this.firewallRulesPage.Controls.Add(this.firewallProgress);
             this.firewallRulesPage.Location = new System.Drawing.Point(4, 20);
             this.firewallRulesPage.Name = "firewallRulesPage";
-            this.firewallRulesPage.Size = new System.Drawing.Size(687, 233);
+            this.firewallRulesPage.Size = new System.Drawing.Size(687, 228);
             this.firewallRulesPage.TabIndex = 3;
             this.firewallRulesPage.Text = "Adding firewall rules";
             // 
@@ -317,7 +317,7 @@
             this.finishedPage.Controls.Add(this.label6);
             this.finishedPage.Location = new System.Drawing.Point(4, 20);
             this.finishedPage.Name = "finishedPage";
-            this.finishedPage.Size = new System.Drawing.Size(687, 233);
+            this.finishedPage.Size = new System.Drawing.Size(687, 228);
             this.finishedPage.TabIndex = 4;
             this.finishedPage.Text = "We are done!";
             // 
@@ -349,25 +349,13 @@
     " run the launcher and enjoy!\r\n\r\n(: Thank you for using my installer, hope it mad" +
     "e things easier :)";
             // 
-            // appIcon1
-            // 
-            this.appIcon1.AppIconImage = ((System.Drawing.Image)(resources.GetObject("appIcon1.AppIconImage")));
-            this.appIcon1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.appIcon1.DragForm = null;
-            this.appIcon1.Image = ((System.Drawing.Image)(resources.GetObject("appIcon1.Image")));
-            this.appIcon1.Location = new System.Drawing.Point(12, 12);
-            this.appIcon1.Name = "appIcon1";
-            this.appIcon1.Scale = 3.5F;
-            this.appIcon1.Size = new System.Drawing.Size(28, 28);
-            this.appIcon1.TabIndex = 9;
-            this.appIcon1.TabStop = false;
-            // 
             // transparentLabel1
             // 
+            this.transparentLabel1.AutoSize = true;
             this.transparentLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.transparentLabel1.Location = new System.Drawing.Point(44, 17);
+            this.transparentLabel1.Location = new System.Drawing.Point(43, 15);
             this.transparentLabel1.Name = "transparentLabel1";
-            this.transparentLabel1.Size = new System.Drawing.Size(139, 20);
+            this.transparentLabel1.Size = new System.Drawing.Size(134, 20);
             this.transparentLabel1.TabIndex = 8;
             this.transparentLabel1.Text = "BeamMP Installer";
             // 
@@ -387,6 +375,20 @@
             this.closeBtn.Text = "windowsDefaultTitleBarButton1";
             this.closeBtn.UseVisualStyleBackColor = true;
             // 
+            // appIcon1
+            // 
+            this.appIcon1.AppIconImage = global::BeamMP_Installer.Properties.Resources.BeamIcon100;
+            this.appIcon1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.appIcon1.DragForm = null;
+            this.appIcon1.Image = ((System.Drawing.Image)(resources.GetObject("appIcon1.Image")));
+            this.appIcon1.InitialImage = global::BeamMP_Installer.Properties.Resources.BeamIconFull;
+            this.appIcon1.Location = new System.Drawing.Point(9, 9);
+            this.appIcon1.Name = "appIcon1";
+            this.appIcon1.Scale = 1.5F;
+            this.appIcon1.Size = new System.Drawing.Size(28, 30);
+            this.appIcon1.TabIndex = 23;
+            this.appIcon1.TabStop = false;
+            // 
             // MainForm
             // 
             this.AllowDrop = true;
@@ -394,8 +396,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.ClientSize = new System.Drawing.Size(719, 313);
-            this.Controls.Add(this.installerTabs);
             this.Controls.Add(this.appIcon1);
+            this.Controls.Add(this.installerTabs);
             this.Controls.Add(this.transparentLabel1);
             this.Controls.Add(this.closeBtn);
             this.DoubleBuffered = true;
@@ -416,13 +418,13 @@
             this.finishedPage.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.appIcon1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
         private DarkControls.Controls.WindowsDefaultTitleBarButton closeBtn;
         private DarkControls.Controls.TransparentLabel transparentLabel1;
-        private DarkControls.Controls.AppIcon appIcon1;
         private System.Windows.Forms.Label label1;
         private DarkControls.Controls.DarkButton selectInstallFolderBtn;
         private DarkControls.Controls.DarkTextBox installFolderPathBox;
@@ -447,6 +449,7 @@
         private System.Windows.Forms.Label launcherDL_ProgressLbl;
         private System.Windows.Forms.Label firewallProgressLbl;
         private DarkControls.Controls.DarkTextBox firewallLogBox;
+        private DarkControls.Controls.AppIcon appIcon1;
     }
 }
 

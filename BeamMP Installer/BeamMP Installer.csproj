@@ -110,13 +110,25 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="selectFileBtn.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\..\DarkControls\DarkControls\DarkControls.csproj">
       <Project>{66c94acb-63c7-42a3-9d83-a3801ced4f1c}</Project>
       <Name>DarkControls</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="selectFileBtn.Image.png" />
+    <None Include="Resources\BeamMPLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BeamMPLogo40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BeamIcon100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BeamIconFull.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

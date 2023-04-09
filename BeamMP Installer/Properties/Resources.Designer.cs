@@ -63,6 +63,46 @@ namespace BeamMP_Installer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BeamIcon100 {
+            get {
+                object obj = ResourceManager.GetObject("BeamIcon100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BeamIconFull {
+            get {
+                object obj = ResourceManager.GetObject("BeamIconFull", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BeamMPLogo {
+            get {
+                object obj = ResourceManager.GetObject("BeamMPLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BeamMPLogo40 {
+            get {
+                object obj = ResourceManager.GetObject("BeamMPLogo40", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap selectFileBtn_Image {
             get {
                 object obj = ResourceManager.GetObject("selectFileBtn_Image", resourceCulture);
