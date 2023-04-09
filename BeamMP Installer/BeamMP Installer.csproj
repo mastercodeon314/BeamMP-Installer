@@ -32,6 +32,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <DebugSymbols>true</DebugSymbols>
@@ -113,12 +114,6 @@
     <None Include="selectFileBtn.Image.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\DarkControls\DarkControls\DarkControls.csproj">
-      <Project>{66c94acb-63c7-42a3-9d83-a3801ced4f1c}</Project>
-      <Name>DarkControls</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\BeamMPLogo.png" />
   </ItemGroup>
   <ItemGroup>
@@ -129,6 +124,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\BeamIconFull.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DarkControls\DarkControls.csproj">
+      <Project>{66c94acb-63c7-42a3-9d83-a3801ced4f1c}</Project>
+      <Name>DarkControls</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
