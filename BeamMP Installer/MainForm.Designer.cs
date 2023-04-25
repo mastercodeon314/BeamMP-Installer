@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            this.appIcon1 = new DarkControls.Controls.AppIcon();
             this.installerTabs = new VisualStudioTabControl.VisualStudioTabControl();
             this.dirPage = new System.Windows.Forms.TabPage();
             this.label2 = new System.Windows.Forms.Label();
@@ -55,15 +56,28 @@
             this.label6 = new System.Windows.Forms.Label();
             this.transparentLabel1 = new DarkControls.Controls.TransparentLabel();
             this.closeBtn = new DarkControls.Controls.WindowsDefaultTitleBarButton();
-            this.appIcon1 = new DarkControls.Controls.AppIcon();
+            ((System.ComponentModel.ISupportInitialize)(this.appIcon1)).BeginInit();
             this.installerTabs.SuspendLayout();
             this.dirPage.SuspendLayout();
             this.dl_LauncherPage.SuspendLayout();
             this.dl_ModPage.SuspendLayout();
             this.firewallRulesPage.SuspendLayout();
             this.finishedPage.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.appIcon1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // appIcon1
+            // 
+            this.appIcon1.AppIconImage = global::BeamMP_Installer.Properties.Resources.BeamIcon100;
+            this.appIcon1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.appIcon1.DragForm = null;
+            this.appIcon1.Image = ((System.Drawing.Image)(resources.GetObject("appIcon1.Image")));
+            this.appIcon1.InitialImage = global::BeamMP_Installer.Properties.Resources.BeamIconFull;
+            this.appIcon1.Location = new System.Drawing.Point(9, 9);
+            this.appIcon1.Name = "appIcon1";
+            this.appIcon1.Scale = 1.5F;
+            this.appIcon1.Size = new System.Drawing.Size(28, 30);
+            this.appIcon1.TabIndex = 23;
+            this.appIcon1.TabStop = false;
             // 
             // installerTabs
             // 
@@ -375,20 +389,6 @@
             this.closeBtn.Text = "windowsDefaultTitleBarButton1";
             this.closeBtn.UseVisualStyleBackColor = true;
             // 
-            // appIcon1
-            // 
-            this.appIcon1.AppIconImage = global::BeamMP_Installer.Properties.Resources.BeamIcon100;
-            this.appIcon1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.appIcon1.DragForm = null;
-            this.appIcon1.Image = ((System.Drawing.Image)(resources.GetObject("appIcon1.Image")));
-            this.appIcon1.InitialImage = global::BeamMP_Installer.Properties.Resources.BeamIconFull;
-            this.appIcon1.Location = new System.Drawing.Point(9, 9);
-            this.appIcon1.Name = "appIcon1";
-            this.appIcon1.Scale = 1.5F;
-            this.appIcon1.Size = new System.Drawing.Size(28, 30);
-            this.appIcon1.TabIndex = 23;
-            this.appIcon1.TabStop = false;
-            // 
             // MainForm
             // 
             this.AllowDrop = true;
@@ -406,6 +406,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.Text = "BeamMP Installer";
+            ((System.ComponentModel.ISupportInitialize)(this.appIcon1)).EndInit();
             this.installerTabs.ResumeLayout(false);
             this.dirPage.ResumeLayout(false);
             this.dirPage.PerformLayout();
@@ -417,7 +418,6 @@
             this.firewallRulesPage.PerformLayout();
             this.finishedPage.ResumeLayout(false);
             this.finishedPage.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.appIcon1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
